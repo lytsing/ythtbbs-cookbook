@@ -2,9 +2,7 @@
 
 本章将带领你进入安装运行 BBS 的世界。
 
-支持哪些操作系统？
+一塌糊涂 BBS 是架在debian上，debian 预装的东西比较少，比较干净。除此之外还支持Redhat、Fedora、CentOS、Ubuntu等 Linxu发型版本，Windows 疯狂爱好者还迁移到了 Windows Cygwin。
 
-对GCC版本有什么要求？
-
-好吧，让我们带着问题开始这神奇之旅。
+好吧，让我们开始这神奇之旅。
 
