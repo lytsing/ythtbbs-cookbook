@@ -56,19 +56,19 @@
 
 ### software
 
-主要包括ghthash 、fastcgi 两个库无依赖关系
+主要包括 ghthash 、fastcgi 两个库无依赖关系
 
 ### ythtlib
 
-用于生成YTHT BBS的一个静态库 /home/bbs/bin/libytht.a 无依赖关系
+用于生成 YTHT BBS的一个静态库 /home/bbs/bin/libytht.a 无依赖关系
 
 ### libythtbbs
 
-用于生成YTHT BBS的一个静态库 /home/bbs/bin/libythtbbs.a 无依赖关系
+用于生成 YTHT BBS的一个静态库 /home/bbs/bin/libythtbbs.a 无依赖关系
 
 ### src
 
-BBS 的Telnet登陆部分依赖于 ythtlib 和 libythtbbs
+BBS 的 Telnet 登陆部分依赖于 ythtlib 和 libythtbbs
 
 ### local_utl
 
@@ -88,8 +88,8 @@ BBS 的 Ftp 服务器部分依赖于 ythtlib 和 libythtbbs
 
 ### atthttpd
 
-BBS 的Web 附件服务器部分依赖于 ythtlib 和 libythtbbs
+BBS 的 Web 附件服务器部分依赖于 ythtlib 和 libythtbbs
 
 ### smth_sshbbsd
 
-BBS 的ssh 登陆部分依赖于 ythtlib ，libythtbbs 和 src 目录
+BBS 的 ssh 登陆部分依赖于 ythtlib ，libythtbbs 和 src 目录
