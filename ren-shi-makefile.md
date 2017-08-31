@@ -26,7 +26,7 @@ dist-hook:
 	done
 ```
 
-- Makerule.base
+Makerule.base
 
     全局性的Makefile,下面的各级目录中 Makefile 会 include 这个文件。
 
