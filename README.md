@@ -19,5 +19,5 @@ BBS 域名 为 ytht.net，前IP 为 162.105.31.222 BBS 系统由一塌糊涂 BBS
 * [西安交大兵马俑](http://bbs.xjtu.edu.cn/)，也维护自己的[分支](https://github.com/bmybbs/bmybbs)
 * [一路BBS](http://www.yilubbs.com/)，他们的代码在放在 [google code](https://code.google.com/p/ythtbbs/)
 
-大学期间花了不少精力去学习开发 BBS 代码，浏览各大 BBSDev  版本，总结整理成文章，希望对 YTHT 代码和 BBS 感兴趣的朋友，以及希望用这个项目提高 C/C++ 开发能力的在校学生提供一些帮助。
+大学期间花了不少精力去学习开发 BBS 代码，浏览各大 BBSDev  版本，总结整理成文章，希望对 YTHT 代码和 BBS 感兴趣的朋友，以及希望用这个项目提高 Linux C/C++ 开发能力的在校学生提供一些帮助。
 
