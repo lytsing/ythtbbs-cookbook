@@ -7,4 +7,5 @@
   * [CentOS 环境安装手册](centos-huan-jing-an-zhuang-zhi-nan.md)
   * [Cygwin 环境安装手册](cygwin-huan-jing-an-zhuang-shou-ce.md)
 * [YTHT BBS 代码概述](ytht-bbs-dai-ma-gai-shu.md)
+* [认识 Makefile](ren-shi-makefile.md)
 
