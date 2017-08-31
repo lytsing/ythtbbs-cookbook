@@ -52,7 +52,7 @@
 25 directories, 18 files
 ```
 
-## 简要说明
+## 目录简要说明
 
 ### bbshome
 
@@ -97,3 +97,18 @@ BBS 的 Web 附件服务器部分依赖于 ythtlib 和 libythtbbs
 ### smth_sshbbsd
 
 BBS 的 ssh 登陆部分依赖于 ythtlib ，libythtbbs 和 src 目录
+
+### devweb
+YTHT dev主页。make install会安装到/home/bbs/ftphome/root/boards/BBSDev/html
+
+ytht已成为历史,现在已经没有实际作用了，有兴趣可以看一下，个人认为没有必要安装。
+
+### ebbs
+棋牌中心，ylsdd 作品
+INSTALL:
+```
+$ gcc -o chess chessd.c
+$ gcc-o chc chess.c
+```
+        
+然后将生成的chessd和chc拷贝到($BBSHOME)/bin，运行./chessd& 启动后台程序即可。
