@@ -5,4 +5,5 @@
   * [获取代码](huo-qu-dai-ma.md)
   * [Ubuntu 环境安装指南](ubuntu-huan-jing-an-zhuang-zhi-nan.md)
   * [CentOS 环境安装指南](centos-huan-jing-an-zhuang-zhi-nan.md)
+* [Cygwin 环境安装手册](cygwin-huan-jing-an-zhuang-shou-ce.md)
 
