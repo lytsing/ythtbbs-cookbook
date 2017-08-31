@@ -1,3 +1,10 @@
-# First Chapter
+# 安装
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+本章将带领你进入安装运行 BBS 的世界。
+
+支持哪些操作系统？
+
+对GCC版本有什么要求？
+
+好吧，让我们带着问题开始这神奇之旅。
+
