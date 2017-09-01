@@ -76,7 +76,8 @@ BBS 的 Telnet 登陆部分依赖于 ythtlib 和 libythtbbs
 
 ### local_utl
 
-BBS 的本地实用工具程序依赖于 ythtlib 和 libythtbbs
+BBS 的本地实用工具程序，就是utility。精彩话题的显示、生成导读、版务考勤、自动解封、系统负载、有关数据统计、备份等实用script，还有各种log程序。依赖于 ythtlib 和 libythtbbs
+
 
 ### nju09
 
@@ -88,7 +89,8 @@ BBS 的转信部分依赖于 ythtlib 和 libythtbbs
 
 ### yftpd
 
-BBS 的 Ftp 服务器部分依赖于 ythtlib 和 libythtbbs
+前身是 bftpd，为 bbs 量身打造的 ftp，用来上传和下载文件，比如版主管理进版页面使用，精华区的下载。部分依赖于 ythtlib 和 libythtbbs
+
 
 ### atthttpd
 
@@ -96,7 +98,7 @@ BBS 的 Web 附件服务器部分依赖于 ythtlib 和 libythtbbs
 
 ### smth_sshbbsd
 
-BBS 的 ssh 登陆部分依赖于 ythtlib ，libythtbbs 和 src 目录
+顾名思义，就是用水木清华BBS代码的ssh部分，提供ssh访问。部分依赖于 ythtlib 、libythtbbs 和 src 目录
 
 ### devweb
 YTHT dev主页。make install会安装到/home/bbs/ftphome/root/boards/BBSDev/html
