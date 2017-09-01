@@ -7,8 +7,9 @@
   * [Ubuntu 环境安装手册](ubuntu-huan-jing-an-zhuang-zhi-nan.md)
   * [CentOS 环境安装手册](centos-huan-jing-an-zhuang-zhi-nan.md)
   * [Cygwin 环境安装手册](cygwin-huan-jing-an-zhuang-shou-ce.md)
+  * [YTHT 特别服务安装指南](ytht-te-bie-fu-wu-an-zhuang-zhi-nan.md)
 * [YTHT BBS 代码概述](ytht-bbs-dai-ma-gai-shu.md)
 * [认识 Makefile](ren-shi-makefile.md)
 * [GCC4 编译问题](gcc-4-bian-yi-wen-ti.md)
-* [YTHT 特别服务安装指南](ytht-te-bie-fu-wu-an-zhuang-zhi-nan.md)
+
 
