@@ -10,4 +10,5 @@
 * [YTHT BBS 代码概述](ytht-bbs-dai-ma-gai-shu.md)
 * [认识 Makefile](ren-shi-makefile.md)
 * [GCC4 编译问题](gcc-4-bian-yi-wen-ti.md)
+* [YTHT 特别服务安装指南](ytht-te-bie-fu-wu-an-zhuang-zhi-nan.md)
 
