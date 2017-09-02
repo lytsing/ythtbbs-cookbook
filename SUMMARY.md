@@ -1,7 +1,7 @@
 # Summary
 
 * [前言](README.md)
-  * [BBS 之前世今生](bbs-zhi-qian-shi-jin-sheng.md)
+  * [BBS 之前世今生](bbs-history.md)
 * [安装](chapter1.md)
   * [获取代码](get-ythtbbs-code-source.md)
   * [Ubuntu 环境安装手册](ubuntu-install-ythtbbs-manual.md)
