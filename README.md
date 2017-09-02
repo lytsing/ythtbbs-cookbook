@@ -17,7 +17,7 @@ BBS 域名 为 ytht.net，前IP 为 162.105.31.222 BBS 系统由一塌糊涂 BBS
 * [天天坛](http://tttan.com/)，由原维护组三大牛之一的 ylsdd　维护，代码未公开。
 * [一见如故](https://yjrg.net/)，有一个板块叫做\[一塌糊涂代码维护中心\] \([https://yjrg.net/HT/home?B=218](https://yjrg.net/HT/home?B=218)\)
 * [西安交大兵马俑](http://bbs.xjtu.edu.cn/)，也维护自己的[分支](https://github.com/bmybbs/bmybbs)
-* [一路BBS](http://www.yilubbs.com/)，他们的代码在放在 [google code](https://code.google.com/p/ythtbbs/)
+* [一路BBS](http://www.yilubbs.com/)，他们的代码在放在 [google code](https://code.google.com/p/ythtbbs/)，主要是从支持 njuweb 改为支持 discuzx。
 
 大学期间花了不少精力去学习开发 BBS 代码，浏览各大 BBSDev  版本，总结整理成文章，希望对 YTHT 代码和 BBS 感兴趣的朋友，以及希望用这个项目提高 Linux C/C++ 开发能力的在校学生提供一些帮助。
 
