@@ -7,9 +7,16 @@
 ### 新增 bbs用户
 
 ```
-sudo adduser bbs
+sudo adduser -d /home/bbs bbs
+sudo passwd bbs
 ```
-按提示填写一些信息，直接回车也行。
+
+编辑 `/etc/group`,在 bbs 组最后一行把 bbs 用户添加到 bbs 用户组，如下：
+
+```
+bbs:x:1004:bbs
+```
+1004 是组id，每个人都可能不一样。
 
 ### vim 编辑器设置
 
@@ -27,7 +34,7 @@ set fileencodings=utf-8,gbk,ucs-bom,cp936
 ```
 ### 安装编译环境
 ```
-sudo apt-get install  automake git gcc g++
+sudo apt-get install automake git gcc g++
 ```
 ### 安装图形库 gd
 ```
@@ -50,10 +57,12 @@ sudo make install
 ```
 cd ~/
 git clone https://github.com/lytsing/ytht.git bbssrc
+sudo chown bbs.bbs bbssrc -R
+sudo su bbs
 cd bbssrc
 ./makedist.sh
 cp site/bbsconfig.sample site/bbsconfig.mybbs
-# 修改站名、域名、IP等参数，
+# 修改站名、域名、IP等参数，
 e site/bbsconfig.mybbs
 ./configure --with-site=mybbs
 make && make install
