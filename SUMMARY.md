@@ -12,6 +12,7 @@
   * [定时任务 crontab.bbs](crontab.md)
   * [WWW 界面修改指南](www-how-to-code.md)
   * [精华区打包简介](local_utl-dl.md)
+  * [系统性能优化](enhance-performance.md)
 * [YTHT BBS 代码解读](ytht-bbs-overview.md)
   * [YTHT BBS 代码概述](ytht-bbs-code-struct.md)
   * [神奇的阅读体验——读 BBS 代码小记](read_bbs_code.md)
