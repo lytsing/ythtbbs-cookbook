@@ -8,13 +8,11 @@ cd ythtsrc
 svn checkout svn://ytht.net/bbs/trunk bbs
 ```
 
-目前无法下载，svn 服务已经停止。我个人电脑上保存的一份代码是原来 svn库里 2008-08-23 版本的，已经放在 gitlab上，下载如下：
+目前无法下载，svn 服务已经停止。我个人电脑上保存的一份代码是原来 svn库里 2008-08-23 版本的，已经放在 Github 上，下载如下：
 
 ```
 mkdir bbssrc
 cd bbssrc
 git clone https://github.com/lytsing/ytht.git
 ```
-
-
 
