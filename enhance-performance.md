@@ -29,21 +29,9 @@ www 服务使用了 Apache的两个模块：
 
 ## 重负载Telnet BBS系统优化和维护经验谈
 
+作者：kxn@bbs.Tsinghua.edu.cn / smth.org / bbs.newsmth.net
+
 ```
-发信人: jiazhi (假肢), 信区: Gossip
-标  题: 重负载Telnet BBS系统优化和维护经验谈
-发信站: BBS_兰大西北望 (Mon Sep 15 14:41:20 2008), 站内
-
-原作者：kxn@bbs.Tsinghua.edu.cn / smth.org / bbs.newsmth.net
-
-康神kxn的blog：kangkang.org 内含：康神之心得、发布Fterm最新版本、提交Fterm的
-bug
-
-注：这是康神的一篇旧作，转载时请勿删除以上信息，以示对原作者kxn之尊重！谢谢！
-
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-━━
 
 神说，要有光，于是有了光；
 
@@ -223,10 +211,6 @@ e) 对于大范围IO读取操作，使用mmap调用
 无端增加了IO量。
 
 以上是我们在维护大型bbs站点时积累的一些经验，供各位读者参考。
---
-吉祥三饱
-
-
-※ 来源:·BBS_兰大西北望 bbs.lzu.edu.cn·[FROM: 211.99.222.*]
 
 ```
+
