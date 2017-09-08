@@ -66,7 +66,7 @@ PATH=/bin:/usr/bin:/usr/local/bin:/home/bbs/bin
 
 ```
 
-然后运行：
+然后使用 bbs 用户运行：
 
 ```
 crontab crontab.bbs
