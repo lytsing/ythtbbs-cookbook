@@ -27,4 +27,5 @@
   * [BBS 常用系统变量列表](bbs-system-variables.md)
   * [分区导读页面的设计](sec-design.md)
   * [CGI 处理过程](www-cgi.md)
+* [附录](chapter4.md)
 
