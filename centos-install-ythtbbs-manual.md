@@ -2,10 +2,22 @@
 
 > 注意：在CentOS 6.5、6.6版本测试通过，只能安装在 i386/i686 32bit机器上，x86-64无法安装。
 
-## 安装编译工具
+## 安装 Telnet
 
-    yum install gcc automake gd-devel
-    yum install git telnet gdb httpd
+### 安装编译调试测试工具
+
+```
+sudo yum install gcc automake gd-devel
+sudo yum install git telnet gdb httpd
+sudo yum install mysql-server mysql-devel
+```
+
+### 新增 bbs 用户
+
+```
+sudo adduser -d /home/bbs bbs
+sudo passwd bbs
+```
 
 ### vim 编辑器设置
 
@@ -15,7 +27,21 @@
     let &termencoding=&encoding
     set fileencodings=utf-8,gbk,ucs-bom,cp936
 
+
+### libghthash
+```
+mkdir /tmp/libghthash && cd /tmp/libghthash
+wget http://www.bth.se/people/ska/sim_home/filer/libghthash-0.6.2.tar.gz
+tar zxvf libghthash-0.6.2.tar.gz
+cd libghthash-0.6.2/
+./configure
+make
+sudo make install
+```
+> tips: 运行`nproc`命令查看服务器的CPU个数n，如果 n > 1，make 的时候可以加上核数参数　`make -j n`，加快编译速度。
+
 ### Apache 配置
+
 编辑 `/etc/httpd/conf/httpd.conf`，末尾加入:
 
 ```
