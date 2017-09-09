@@ -28,8 +28,8 @@ tmpfs是一种虚拟内存文件系统，是基于内存的文件系统，Linux 
 
 www 服务使用了 Apache的两个模块：
 
-- Apache fastrw 模块
-- Apache fastcgi 模块，提高 cgi 的执行效率。
+- Apache(1.3) fastrw 模块
+- Apache(2.0) fastcgi 模块，提高 cgi 的执行效率。
 
 为了优化性能以及定制化开发，Apache 最后都需要手动修改编译代码，具体见 `software/apachelimit.patch` 与 `software/fastcgi_bufsize.patch`
 
