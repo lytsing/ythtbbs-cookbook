@@ -22,3 +22,9 @@ cd bbssrc
 git clone https://github.com/lytsing/ytht.git
 ```
 
+也可以下载 西安交大 BBS 的源代码，他们的代码也是托管在 github 上：
+
+```
+git clone https://github.com/bmybbs/bmybbs.git
+```
+顺便提一下，交大的维护组整理了不少的参考文档，在`doc`目录下可以查找到。
