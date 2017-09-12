@@ -2,7 +2,7 @@
 
 测试环境: Ubuntu 13.10/14.04.1 LTS i686，暂不支持x86-64。
 
-## ssh/telnent　主程序安装
+## telnent　主程序安装
 
 ### 新增 bbs用户
 
@@ -195,3 +195,45 @@ LAST_BBS_SQLPASSWD=passowrd4bbsmysql
 ```
 这时重新登录 bbs 就可以对文章进行评价了。
 
+
+## 安装 ssh
+
+1  安装ssh部分所需要的软件包：`libgmp3-dev`
+
+2 切换至bbs用户，运行:
+
+```
+cd $BBSSRC/smth_sshbbsd
+./makedist.sh
+./configure --prefix=$BBSHOME
+make install
+```
+
+如果一切顺利，sshbbsd 已经被安装到了`$BBSHOME/bin`里面。
+
+3  使用bbs用户运行
+
+```
+ssh-keygen -t rsa1
+cp ~/.ssh/* $BBSHOME/etc/
+cp /etc/ssh/sshd_config  $BBSHOME/etc/
+```
+
+第一步中所有提问均直接按回车确认。注意最后一行复制的是sshd_config，不是ssh_config。编辑$BBSHOME/etc/sshd_config将HostKey一项改为
+
+```
+HostKey etc/identity
+```
+将Port一项改为需要启用的端口，注意不要和管理用的端口冲突。
+
+4  启动sshbbsd。
+
+如果sshbbsd端口在1024以下请使用root，否则使用bbs用户运行
+
+```
+$BBSHOME/bin/sshbbsd
+```
+
+启动sshbbsd。如果启动时提示$BBSHOME/etc/sshd_config中有错，根据该提示逐行注释掉相应内容即可。
+
+　　至此，YTHT BBS的基本服务已经可以正常使用了，其他服务的配置和启动方法另文详述。
