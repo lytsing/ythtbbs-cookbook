@@ -32,6 +32,33 @@ sudo ln -s /usr/bin/vim /usr/bin/e
 let &termencoding=&encoding
 set fileencodings=utf-8,gbk,ucs-bom,cp936
 ```
+
+设置 K&R 代码风格：
+
+```
+"主题,我喜欢这个，一般要设终端是白字黑背景色.
+colo desert
+
+" 对齐与缩进
+set cindent
+set autoindent
+set shiftwidth=8
+set softtabstop=8
+set tabstop=8
+
+" 设置行号
+set nu
+```
+
+主要依据来源于代码根目录下的`Bindent` 文件:
+
+```
+#!/bin/bash
+indent -kr -i8 -ts8 -sob -l80 -ss -bs -psl "$@"
+indent -kr -i8 -ts8 -sob -l80 -ss -bs -psl "$@"
+```
+
+
 ### 安装编译环境
 ```
 sudo apt-get install automake git gcc g++
