@@ -15,6 +15,7 @@
   * [系统性能优化](enhance-performance.md)
   * [关于BBS代码安装使用修改的几个tips ](bbs-modify-tips.md)
   * [使用 gdb 调试 FB2000](gdb-debug-fb2000.md)
+  * [为web添加新功能](add-www-web-function.md)
 * [YTHT BBS 代码解读](ytht-bbs-overview.md)
   * [YTHT BBS 代码概述](ytht-bbs-code-struct.md)
   * [神奇的阅读体验——读 BBS 代码小记](read_bbs_code.md)

@@ -8,7 +8,7 @@
 
 ```
 sudo yum install gcc automake gd-devel
-sudo yum install git telnet gdb httpd
+sudo yum install git telnet mail gdb httpd
 sudo yum install mysql-server mysql-devel
 ```
 
